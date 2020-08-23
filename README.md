@@ -39,5 +39,6 @@ https://github.com/bezdelnique/microblog/commits/master
 git clone git@github.com:bezdelnique/microblog.git microblog
 cd microblog
 pip3 install -r requirements.txt
+flask db upgrade
 flask run
 ```
